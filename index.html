@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Converter Pro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Voice Converter Pro</h1>
+
+    <div class="container">
+        <div class="box">
+            <div class="icon">Text</div>
+            <div class="box-title">Text to Speech</div>
+            <input type="text" placeholder="Type your text here..." id="textInput">
+            <button onclick="convertToVoice()">Convert to Voice</button>
+        </div>
+
+        <div class="box">
+            <div class="icon">Voice</div>
+            <div class="box-title">Speech to Text</div>
+            <button onclick="convertToText()" id="voiceBtn">Start Recording</button>
+            <input type="text" placeholder="Your speech will appear here..." id="textOutput" readonly>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
