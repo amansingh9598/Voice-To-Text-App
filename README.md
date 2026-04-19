@@ -37,8 +37,9 @@ Captures audio input from the microphone
 Converts speech into text in real-time
 Updates the UI dynamically with recognized text
 
-## 👉 The Web Speech API enables browsers to process voice input and convert it into text using built-in speech recognition engines.
-📌 Future Improvements
+👉 The Web Speech API enables browsers to process voice input and convert it into text using built-in speech recognition engines.
+
+## 📌 Future Improvements
 🌍 Multi-language support
 💾 Save transcription as file
 🧠 AI-based punctuation & formatting
